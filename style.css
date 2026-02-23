@@ -2,12 +2,17 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:5px;
+    align-items: flex-start;
+    justify-content: center;
 }
-.logo{
+.boite{
+    flex: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    object-fit: cover;
+    text-align: center;
 }
-.rep{
+.boitelogo{
+    display: block;
     align-items: center;
 }
