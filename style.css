@@ -1,0 +1,13 @@
+.entete{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+.rep{
+    align-items: center;
+}
