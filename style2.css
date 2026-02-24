@@ -3,16 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+.releve{
+    align-items: center;
+    justify-content: center;
+   border: 1px solid black;
+}
+
 .entete{
-    width: 1150px;
+   /* width: 1150px;*/
     display: flex;
     grid-template-columns: repeat(3,1fr);
-    gap:5px;
+    column-gap: 200px;
     margin: 20px;
     padding: 15px;
     align-items: flex-start;
-    justify-content: center;
-    border: 1px solid black;
+    justify-content: space-between;
+    border: none;
 }
 h2,h3,h4,p{
 margin:0;
@@ -29,9 +35,20 @@ margin:0;
     align-items: center;
 }
 .boitelogo img{
-
-    border-radius: 8px;
+    border-radius:46%;
     display: block;
     margin: 0 auto;
     border:none;
+}
+.box{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.conteneur1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 0 20px;
+    column-gap: 360px;
 }
