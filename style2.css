@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
    border: 1px solid black;
+   margin: 20px;
 }
 
 .entete{
@@ -52,6 +53,19 @@ margin:0;
     margin: 0 20px;
     column-gap: 360px;
 }
+.conteneur2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 450px;
+    margin: 20px;
+    padding: 15px;
+    align-items: flex-start;
+}
+.box2{
+    flex: 1px;
+    justify-content: baseline;
+    text-align: baseline;
+}
 .le_tableau{
     width: 100%;
     border-collapse: collapse;
@@ -68,3 +82,13 @@ margin:0;
     background-color: #f2f2f2;
     text-align: center;
 }
+.end{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    padding: 100px;
+}
+.pic img{
+    border-radius: 5px;
+    height: 50px;
+    object-fit: cover;
