@@ -52,3 +52,19 @@ margin:0;
     margin: 0 20px;
     column-gap: 360px;
 }
+.le_tableau{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.le_tableau th, .le_tableau td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-size: 12px;
+
+}
+.le_tableau th, .gras{
+    background-color: #f2f2f2;
+    text-align: center;
+}
